@@ -59,7 +59,7 @@ var _getAllFilesFromFolder = function(dir) {
 
 function onLoad(){
     //List directory
-    var files = _getAllFilesFromFolder("C:\Users\IceMan\Videos")
+    var files = _getAllFilesFromFolder(PATH)
     alert(files)
 }
 </script>
